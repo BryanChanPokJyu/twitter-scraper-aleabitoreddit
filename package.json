@@ -1,0 +1,12 @@
+{
+  "name": "twitter-scraper-aleabitoreddit",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Scrape @aleabitoreddit tweets (past 6 months) via twitterapi.io",
+  "scripts": {
+    "scrape": "node scrape.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5"
+  }
+}
