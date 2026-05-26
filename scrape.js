@@ -6,7 +6,7 @@ import { existsSync } from 'fs';
 
 const API_BASE = 'https://api.twitterapi.io/twitter/user/last_tweets';
 const TARGET_HANDLE = 'aleabitoreddit';
-const LOOKBACK_DAYS = 180;
+const LOOKBACK_DAYS = 9999;
 const OUTPUT_FILE = 'tweets.json';
 const STATE_FILE = 'state.json';
 
@@ -61,6 +61,7 @@ async function main() {
   let allTweets = state.tweets || [];
   let pageNum = Math.floor(allTweets.length / 20) + 1;
   let reachedCutoff = false;
+  let noNewPages = 0;
 
   while (!reachedCutoff) {
     console.log(`  Page ${pageNum}${cursor ? ' (cursor: ...' + cursor.slice(-20) + ')' : ''}...`);
@@ -72,6 +73,8 @@ async function main() {
       console.log('  No more tweets returned. Done.');
       break;
     }
+
+    const prevCount = allTweets.length;
 
     for (const tweet of tweets) {
       const createdAt = new Date(tweet.createdAt);
@@ -100,7 +103,18 @@ async function main() {
       }
     }
 
-    console.log(`    +${tweets.length} tweets (total: ${allTweets.length})`);
+    const added = allTweets.length - prevCount;
+    console.log(`    +${added} new tweets (total: ${allTweets.length})`);
+
+    if (added === 0) {
+      noNewPages++;
+      if (noNewPages >= 3) {
+        console.log('  API returning only duplicates for 3 pages. Stopping.');
+        break;
+      }
+    } else {
+      noNewPages = 0;
+    }
 
     cursor = data.cursor;
     pageNum++;
