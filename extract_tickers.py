@@ -7,11 +7,14 @@ Extract stock tickers from tweets.json
 """
 
 import json
+import os
 import re
 from collections import Counter
 
 TWEETS_FILE = "tweets.json"
 OUTPUT_FILE = "output/tickers.json"
+
+os.makedirs("output", exist_ok=True)
 
 # Known company name -> ticker mappings for this account
 ALIASES = {

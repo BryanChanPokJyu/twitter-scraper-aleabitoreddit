@@ -10,7 +10,7 @@ from collections import defaultdict
 from datetime import datetime, timedelta
 
 TWEETS_FILE = "tweets.json"
-TICKERS_FILE = "tickers.json"
+TICKERS_FILE = "output/tickers.json"
 OUTPUT_DIR = "output"
 
 TICKER_PAT = re.compile(r'\$([A-Z]{2,5})')
@@ -65,49 +65,54 @@ def compute_burst_map(tweets):
 
 
 def score_tweet_ticker(tweet, ticker, burst_scores, global_max_burst):
+    """
+    5-point scoring:
+      5 = exclusive + long(>800) + position/thesis declaration
+      4 = exclusive + long(>500) OR has position/target price
+      3 = exclusive OR (2-3 tickers + has argument)
+      2 = 4-5 tickers with directional view
+      1 = 6+ tickers listed OR short casual mention
+    """
     text = tweet['text']
     all_tickers = set(TICKER_PAT.findall(text)) - FALSE_POSITIVE_US
-
-    # Dimension 1: Exclusivity (0-1)
     num_tickers = max(len(all_tickers), 1)
-    exclusivity = 1.0 / num_tickers
+    length = len(text)
 
-    # Dimension 2: Depth (0-1)
-    depth = min(len(text) / 1000.0, 1.0)
+    is_exclusive = (num_tickers == 1)
+    is_long = (length > 800)
+    is_medium = (length > 500)
+    has_position = bool(HOLDING_PAT.search(text))
+    has_thesis = bool(THESIS_PAT.search(text))
+    has_target = bool(PRICE_PAT.search(text))
+    has_argument = has_thesis or has_target or bool(RETURN_PAT.search(text))
 
-    # Dimension 3: Burst (0-1)
-    burst = burst_scores.get(ticker, 1) / global_max_burst
-
-    # Dimension 4: Behavioral signals (0-1)
-    behavior = 0.0
-    if HOLDING_PAT.search(text):
-        behavior += 0.35
-    if PRICE_PAT.search(text):
-        behavior += 0.25
-    if RETURN_PAT.search(text):
-        behavior += 0.2
-    if THESIS_PAT.search(text):
-        behavior += 0.2
-    behavior = min(behavior, 1.0)
-
-    # Weighted score
-    score = 0.25 * exclusivity + 0.30 * depth + 0.25 * burst + 0.20 * behavior
+    if is_exclusive and is_long and (has_position or has_thesis):
+        score = 5
+    elif (is_exclusive and is_medium) or has_position or (is_exclusive and has_target):
+        score = 4
+    elif is_exclusive or (num_tickers <= 3 and has_argument):
+        score = 3
+    elif num_tickers <= 5 and (has_argument or is_medium):
+        score = 2
+    else:
+        score = 1
 
     return {
-        'score': round(score, 3),
-        'exclusivity': round(exclusivity, 3),
-        'depth': round(depth, 3),
-        'burst': round(burst, 3),
-        'behavior': round(behavior, 3),
+        'score': score,
+        'num_tickers': num_tickers,
+        'length': length,
+        'has_position': has_position,
+        'has_thesis': has_thesis,
+        'has_target': has_target,
     }
 
 
 def assign_grade(score):
-    if score >= 0.7:
+    if score >= 5:
         return 'S'
-    elif score >= 0.55:
+    elif score >= 4:
         return 'A'
-    elif score >= 0.35:
+    elif score >= 3:
         return 'B'
     else:
         return 'C'
@@ -144,7 +149,6 @@ def main():
                 'ticker': ticker,
                 'grade': grade,
                 'score': scores['score'],
-                'components': scores,
                 'date': date_str,
                 'likes': tweet.get('likes', 0),
                 'views': tweet.get('views', 0),
@@ -182,7 +186,8 @@ def main():
             'ticker': tk,
             'best_grade': best['grade'],
             'best_score': best['score'],
-            'avg_score': round(sum(all_scores) / len(all_scores), 3),
+            'avg_score': round(sum(all_scores) / len(all_scores), 1),
+            'total_score': sum(all_scores),
             'mention_count': len(all_scores),
             'burst_7d': burst_scores.get(tk, 0),
             'best_tweet_url': best['url'],
@@ -198,13 +203,14 @@ def main():
             'total_tweets': len(tweets),
             'total_scored_pairs': len(scored_pairs),
             'grade_distribution': dict(grade_dist),
-            'scoring_weights': {
-                'exclusivity': 0.25,
-                'depth': 0.30,
-                'burst': 0.25,
-                'behavior': 0.20,
+            'scoring_rules': {
+                '5 (S)': 'exclusive + long(>800) + position/thesis',
+                '4 (A)': 'exclusive + medium(>500) OR has position/target',
+                '3 (B)': 'exclusive OR (2-3 tickers + argument)',
+                '2 (C)': '4-5 tickers with view',
+                '1 (C)': '6+ tickers listed or short mention',
             },
-            'grade_thresholds': {'S': '>=0.7', 'A': '>=0.55', 'B': '>=0.35', 'C': '<0.35'},
+            'grade_thresholds': {'S': '=5', 'A': '=4', 'B': '=3', 'C': '<=2'},
         },
         'scored_pairs': scored_pairs,
     }
@@ -221,10 +227,10 @@ def main():
         json.dump(top_picks, f, indent=2, ensure_ascii=False)
 
     print(f"\nTop picks (S+A grade): {len(top_picks)} tickers")
-    print("\nTop 20 by score:")
-    print(f"{'Ticker':8s} {'Grade':6s} {'Score':6s} {'Avg':5s} {'Mentions':9s} {'Burst7d':8s}")
+    print("\nTop 20 by total score:")
+    print(f"{'Ticker':8s} {'Grade':6s} {'Best':5s} {'Avg':4s} {'Total':6s} {'Mentions':9s}")
     for t in ticker_summary[:20]:
-        print(f"${t['ticker']:7s} {t['best_grade']:6s} {t['best_score']:5.3f}  {t['avg_score']:5.3f} {t['mention_count']:7d}   {t['burst_7d']:5d}")
+        print(f"${t['ticker']:7s} {t['best_grade']:6s} {t['best_score']:4d}   {t['avg_score']:3.1f}  {t['total_score']:5d}  {t['mention_count']:7d}")
 
     print(f"\nOutput saved to {OUTPUT_DIR}/")
     print(f"  - scored_signals.json  (all {len(scored_pairs)} tweet-ticker pairs)")

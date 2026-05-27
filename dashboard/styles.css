@@ -243,6 +243,18 @@ h1 {
   min-width: 80px;
 }
 
+.mention-score {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 10px;
+  font-weight: 700;
+  color: white;
+  padding: 1px 6px;
+  border-radius: 4px;
+  white-space: nowrap;
+  min-width: 50px;
+  text-align: center;
+}
+
 .mention-text {
   color: var(--ink);
   line-height: 1.4;
