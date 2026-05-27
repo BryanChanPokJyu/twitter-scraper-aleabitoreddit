@@ -153,7 +153,6 @@ def main():
                 'likes': tweet.get('likes', 0),
                 'views': tweet.get('views', 0),
                 'url': tweet.get('url', ''),
-                'text_preview': tweet['text'][:150],
                 'tweet_id': tweet['id'],
             })
 
@@ -191,7 +190,6 @@ def main():
             'mention_count': len(all_scores),
             'burst_7d': burst_scores.get(tk, 0),
             'best_tweet_url': best['url'],
-            'best_tweet_preview': best['text_preview'],
         })
 
     ticker_summary.sort(key=lambda x: -x['best_score'])

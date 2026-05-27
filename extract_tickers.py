@@ -97,7 +97,6 @@ def main():
             "date": tweet["createdAt"],
             "url": tweet["url"],
             "tickers": tickers,
-            "text_preview": tweet["text"][:120],
         })
 
     tagged = [r for r in results if r["tickers"]]

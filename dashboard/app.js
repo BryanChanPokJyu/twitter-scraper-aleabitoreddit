@@ -106,7 +106,6 @@ function getMentions(ticker) {
       date: p.date,
       score: p.score,
       grade: p.grade,
-      text: p.text_preview,
       url: p.url,
       likes: p.likes,
     }));
@@ -120,7 +119,7 @@ function renderMentions(mentions) {
     return `<div class="mention-item">
       <span class="mention-date">${m.date}</span>
       <span class="mention-score" style="background:${color}">${m.score}</span>
-      <span class="mention-text"><a href="${m.url}" target="_blank" rel="noopener">${escapeHtml(m.text)}</a></span>
+      <span class="mention-text"><a href="${m.url}" target="_blank" rel="noopener">View tweet →</a> · ${m.likes} likes</span>
     </div>`;
   }).join('');
 }
