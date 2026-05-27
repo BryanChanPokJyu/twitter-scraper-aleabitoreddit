@@ -10,7 +10,7 @@ npm install
 
 # 2. 配置 API Key
 cp .env.example .env
-# 编辑 .env，填入 TWITTER_API_KEY（来自 twitterapi.io）
+# 编辑 .env，填入 TWITTER_API_KEY 和 TWITTER_API_BASE
 
 # 3. 爬取推文
 node scrape.js
@@ -29,7 +29,7 @@ python3 server.py
 ## 项目结构
 
 ```
-├── scrape.js              # 推文爬取（twitterapi.io，增量更新）
+├── scrape.js              # 推文爬取（Twitter API，增量更新）
 ├── extract_tickers.py     # Ticker 提取（$TAG + 台股代码 + 别名映射）
 ├── score_signals.py       # 5 分制信号评分
 ├── server.py              # 本地服务器（含 Yahoo Finance CORS 代理）
@@ -72,7 +72,7 @@ python3 server.py
 
 | 组件 | 来源 | 费用 |
 |------|------|------|
-| 推文 | twitterapi.io | $0.15 / 1000 条 |
+| 推文 | Twitter API | — |
 | K 线 | Yahoo Finance v8（非官方） | 免费 |
 | 图表 | TradingView Lightweight Charts | 免费（MIT） |
 
@@ -91,7 +91,7 @@ GitHub Actions 每周一 08:00 UTC 自动执行：
 
 - Node.js 20+
 - Python 3.9+
-- twitterapi.io API Key（设为 `TWITTER_API_KEY` 环境变量或 GitHub Secret）
+- Twitter API Key（设为 `TWITTER_API_KEY` + `TWITTER_API_BASE` 环境变量或 GitHub Secret）
 
 ## 已知限制
 

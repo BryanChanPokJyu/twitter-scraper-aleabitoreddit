@@ -2,7 +2,7 @@
   "name": "twitter-scraper-aleabitoreddit",
   "version": "1.0.0",
   "type": "module",
-  "description": "Scrape @aleabitoreddit tweets (past 6 months) via twitterapi.io",
+  "description": "Scrape and analyze @aleabitoreddit tweets via Twitter API",
   "scripts": {
     "scrape": "node scrape.js"
   },

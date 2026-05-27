@@ -4,15 +4,15 @@ import 'dotenv/config';
 import { writeFile, readFile } from 'fs/promises';
 import { existsSync } from 'fs';
 
-const API_BASE = 'https://api.twitterapi.io/twitter/user/last_tweets';
+const API_BASE = process.env.TWITTER_API_BASE;
 const TARGET_HANDLE = 'aleabitoreddit';
 const LOOKBACK_DAYS = 9999;
 const OUTPUT_FILE = 'tweets.json';
 const STATE_FILE = 'state.json';
 
 const API_KEY = process.env.TWITTER_API_KEY;
-if (!API_KEY) {
-  console.error('TWITTER_API_KEY not set');
+if (!API_KEY || !API_BASE) {
+  console.error('TWITTER_API_KEY and TWITTER_API_BASE must be set');
   process.exit(1);
 }
 

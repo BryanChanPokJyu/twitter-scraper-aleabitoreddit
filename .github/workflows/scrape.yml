@@ -28,6 +28,7 @@ jobs:
       - name: Scrape tweets
         env:
           TWITTER_API_KEY: ${{ secrets.TWITTER_API_KEY }}
+          TWITTER_API_BASE: ${{ secrets.TWITTER_API_BASE }}
         run: node scrape.js
 
       - name: Extract tickers

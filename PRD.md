@@ -22,7 +22,7 @@
 
 | 组件 | 说明 |
 |------|------|
-| 数据源 | twitterapi.io API（$0.15/1000 条） |
+| 数据源 | Twitter API |
 | 爬取策略 | 全量历史（平台限制 ~3200 条）+ 每周增量更新 |
 | 存储 | tweets.json（原始推文） |
 | 自动化 | GitHub Actions 每周一自动执行 |
@@ -164,7 +164,7 @@
 
 | 层 | 技术 |
 |----|------|
-| 爬取 | Node.js + twitterapi.io |
+| 爬取 | Node.js + Twitter API |
 | 处理 | Python（提取 + 评分） |
 | 前端 | Vanilla JS + TradingView Lightweight Charts |
 | K 线数据 | Yahoo Finance v8 API（免费非官方） |
