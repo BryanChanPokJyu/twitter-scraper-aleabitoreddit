@@ -11,7 +11,7 @@ import re
 from collections import Counter
 
 TWEETS_FILE = "tweets.json"
-OUTPUT_FILE = "tickers.json"
+OUTPUT_FILE = "output/tickers.json"
 
 # Known company name -> ticker mappings for this account
 ALIASES = {
