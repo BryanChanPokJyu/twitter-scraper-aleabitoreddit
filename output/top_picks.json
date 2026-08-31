@@ -1,31 +1,51 @@
 [
   {
-    "ticker": "MU",
+    "ticker": "MRVL",
     "best_grade": "S",
     "best_score": 5,
-    "avg_score": 2.1,
-    "total_score": 231,
-    "mention_count": 112,
-    "burst_7d": 13,
-    "best_tweet_url": "https://x.com/aleabitoreddit/status/2089183484556480536"
+    "avg_score": 1.6,
+    "total_score": 207,
+    "mention_count": 128,
+    "burst_7d": 18,
+    "best_tweet_url": "https://x.com/aleabitoreddit/status/2094353950040592854"
+  },
+  {
+    "ticker": "SNDK",
+    "best_grade": "S",
+    "best_score": 5,
+    "avg_score": 2.0,
+    "total_score": 220,
+    "mention_count": 108,
+    "burst_7d": 12,
+    "best_tweet_url": "https://x.com/aleabitoreddit/status/2092789800428622128"
   },
   {
     "ticker": "NVDA",
     "best_grade": "S",
     "best_score": 5,
     "avg_score": 2.0,
-    "total_score": 470,
-    "mention_count": 241,
+    "total_score": 506,
+    "mention_count": 256,
     "burst_7d": 22,
-    "best_tweet_url": "https://x.com/aleabitoreddit/status/2077406548012466390"
+    "best_tweet_url": "https://x.com/aleabitoreddit/status/2092718416683819292"
+  },
+  {
+    "ticker": "MU",
+    "best_grade": "S",
+    "best_score": 5,
+    "avg_score": 2.0,
+    "total_score": 237,
+    "mention_count": 116,
+    "burst_7d": 13,
+    "best_tweet_url": "https://x.com/aleabitoreddit/status/2089183484556480536"
   },
   {
     "ticker": "AEVA",
     "best_grade": "S",
     "best_score": 5,
-    "avg_score": 1.8,
-    "total_score": 23,
-    "mention_count": 13,
+    "avg_score": 1.6,
+    "total_score": 26,
+    "mention_count": 16,
     "burst_7d": 3,
     "best_tweet_url": "https://x.com/aleabitoreddit/status/2073044119287722024"
   },
@@ -44,8 +64,8 @@
     "best_grade": "S",
     "best_score": 5,
     "avg_score": 2.1,
-    "total_score": 395,
-    "mention_count": 188,
+    "total_score": 396,
+    "mention_count": 189,
     "burst_7d": 21,
     "best_tweet_url": "https://x.com/aleabitoreddit/status/2066823176785457323"
   },
@@ -53,29 +73,19 @@
     "ticker": "IREN",
     "best_grade": "S",
     "best_score": 5,
-    "avg_score": 1.7,
-    "total_score": 131,
-    "mention_count": 75,
+    "avg_score": 1.8,
+    "total_score": 133,
+    "mention_count": 76,
     "burst_7d": 7,
     "best_tweet_url": "https://x.com/aleabitoreddit/status/2064265545529307560"
-  },
-  {
-    "ticker": "MRVL",
-    "best_grade": "S",
-    "best_score": 5,
-    "avg_score": 1.6,
-    "total_score": 197,
-    "mention_count": 122,
-    "burst_7d": 18,
-    "best_tweet_url": "https://x.com/aleabitoreddit/status/2063798063035228188"
   },
   {
     "ticker": "SIVE",
     "best_grade": "S",
     "best_score": 5,
     "avg_score": 2.0,
-    "total_score": 572,
-    "mention_count": 291,
+    "total_score": 592,
+    "mention_count": 303,
     "burst_7d": 32,
     "best_tweet_url": "https://x.com/aleabitoreddit/status/2062079425475473595"
   },
@@ -104,8 +114,8 @@
     "best_grade": "S",
     "best_score": 5,
     "avg_score": 1.9,
-    "total_score": 383,
-    "mention_count": 200,
+    "total_score": 396,
+    "mention_count": 208,
     "burst_7d": 24,
     "best_tweet_url": "https://x.com/aleabitoreddit/status/2039635527402664030"
   },
@@ -114,8 +124,8 @@
     "best_grade": "S",
     "best_score": 5,
     "avg_score": 1.7,
-    "total_score": 151,
-    "mention_count": 88,
+    "total_score": 152,
+    "mention_count": 89,
     "burst_7d": 14,
     "best_tweet_url": "https://x.com/aleabitoreddit/status/2032943522891051319"
   },
@@ -124,8 +134,8 @@
     "best_grade": "S",
     "best_score": 5,
     "avg_score": 2.5,
-    "total_score": 145,
-    "mention_count": 57,
+    "total_score": 151,
+    "mention_count": 60,
     "burst_7d": 13,
     "best_tweet_url": "https://x.com/aleabitoreddit/status/2030445000686014588"
   },
@@ -134,8 +144,8 @@
     "best_grade": "S",
     "best_score": 5,
     "avg_score": 2.5,
-    "total_score": 108,
-    "mention_count": 43,
+    "total_score": 111,
+    "mention_count": 45,
     "burst_7d": 10,
     "best_tweet_url": "https://x.com/aleabitoreddit/status/2023921191652933900"
   },
@@ -144,38 +154,18 @@
     "best_grade": "A",
     "best_score": 4,
     "avg_score": 1.7,
-    "total_score": 97,
-    "mention_count": 56,
+    "total_score": 98,
+    "mention_count": 57,
     "burst_7d": 13,
     "best_tweet_url": "https://x.com/aleabitoreddit/status/2087505570941239683"
-  },
-  {
-    "ticker": "AMD",
-    "best_grade": "A",
-    "best_score": 4,
-    "avg_score": 1.5,
-    "total_score": 119,
-    "mention_count": 77,
-    "burst_7d": 13,
-    "best_tweet_url": "https://x.com/aleabitoreddit/status/2085603590903902621"
-  },
-  {
-    "ticker": "AVGO",
-    "best_grade": "A",
-    "best_score": 4,
-    "avg_score": 1.6,
-    "total_score": 118,
-    "mention_count": 75,
-    "burst_7d": 13,
-    "best_tweet_url": "https://x.com/aleabitoreddit/status/2085603590903902621"
   },
   {
     "ticker": "MTSI",
     "best_grade": "A",
     "best_score": 4,
-    "avg_score": 1.6,
-    "total_score": 73,
-    "mention_count": 47,
+    "avg_score": 1.5,
+    "total_score": 75,
+    "mention_count": 49,
     "burst_7d": 9,
     "best_tweet_url": "https://x.com/aleabitoreddit/status/2085603590903902621"
   },
@@ -184,8 +174,8 @@
     "best_grade": "A",
     "best_score": 4,
     "avg_score": 1.6,
-    "total_score": 194,
-    "mention_count": 123,
+    "total_score": 202,
+    "mention_count": 130,
     "burst_7d": 16,
     "best_tweet_url": "https://x.com/aleabitoreddit/status/2085603590903902621"
   },
@@ -194,9 +184,29 @@
     "best_grade": "A",
     "best_score": 4,
     "avg_score": 1.7,
-    "total_score": 436,
-    "mention_count": 262,
+    "total_score": 446,
+    "mention_count": 270,
     "burst_7d": 23,
+    "best_tweet_url": "https://x.com/aleabitoreddit/status/2085603590903902621"
+  },
+  {
+    "ticker": "AMD",
+    "best_grade": "A",
+    "best_score": 4,
+    "avg_score": 1.5,
+    "total_score": 121,
+    "mention_count": 79,
+    "burst_7d": 13,
+    "best_tweet_url": "https://x.com/aleabitoreddit/status/2085603590903902621"
+  },
+  {
+    "ticker": "AVGO",
+    "best_grade": "A",
+    "best_score": 4,
+    "avg_score": 1.6,
+    "total_score": 122,
+    "mention_count": 78,
+    "burst_7d": 13,
     "best_tweet_url": "https://x.com/aleabitoreddit/status/2085603590903902621"
   },
   {
@@ -204,8 +214,8 @@
     "best_grade": "A",
     "best_score": 4,
     "avg_score": 2.4,
-    "total_score": 112,
-    "mention_count": 47,
+    "total_score": 113,
+    "mention_count": 48,
     "burst_7d": 5,
     "best_tweet_url": "https://x.com/aleabitoreddit/status/2083225872207937687"
   },
@@ -223,9 +233,9 @@
     "ticker": "SKHY",
     "best_grade": "A",
     "best_score": 4,
-    "avg_score": 2.3,
-    "total_score": 16,
-    "mention_count": 7,
+    "avg_score": 2.4,
+    "total_score": 22,
+    "mention_count": 9,
     "burst_7d": 4,
     "best_tweet_url": "https://x.com/aleabitoreddit/status/2078338950150959558"
   },
@@ -234,8 +244,8 @@
     "best_grade": "A",
     "best_score": 4,
     "avg_score": 1.6,
-    "total_score": 99,
-    "mention_count": 62,
+    "total_score": 106,
+    "mention_count": 68,
     "burst_7d": 10,
     "best_tweet_url": "https://x.com/aleabitoreddit/status/2076808331453415674"
   },
@@ -264,8 +274,8 @@
     "best_grade": "A",
     "best_score": 4,
     "avg_score": 2.3,
-    "total_score": 49,
-    "mention_count": 21,
+    "total_score": 50,
+    "mention_count": 22,
     "burst_7d": 11,
     "best_tweet_url": "https://x.com/aleabitoreddit/status/2072913865458004014"
   },
@@ -284,8 +294,8 @@
     "best_grade": "A",
     "best_score": 4,
     "avg_score": 1.8,
-    "total_score": 120,
-    "mention_count": 66,
+    "total_score": 125,
+    "mention_count": 70,
     "burst_7d": 10,
     "best_tweet_url": "https://x.com/aleabitoreddit/status/2072726120706007465"
   },
@@ -294,30 +304,10 @@
     "best_grade": "A",
     "best_score": 4,
     "avg_score": 1.7,
-    "total_score": 134,
-    "mention_count": 79,
+    "total_score": 135,
+    "mention_count": 80,
     "burst_7d": 10,
     "best_tweet_url": "https://x.com/aleabitoreddit/status/2072570681586553112"
-  },
-  {
-    "ticker": "NBIS",
-    "best_grade": "A",
-    "best_score": 4,
-    "avg_score": 1.8,
-    "total_score": 234,
-    "mention_count": 127,
-    "burst_7d": 10,
-    "best_tweet_url": "https://x.com/aleabitoreddit/status/2071763387948859506"
-  },
-  {
-    "ticker": "XFAB",
-    "best_grade": "A",
-    "best_score": 4,
-    "avg_score": 2.1,
-    "total_score": 54,
-    "mention_count": 26,
-    "burst_7d": 14,
-    "best_tweet_url": "https://x.com/aleabitoreddit/status/2071763387948859506"
   },
   {
     "ticker": "CBRS",
@@ -330,12 +320,22 @@
     "best_tweet_url": "https://x.com/aleabitoreddit/status/2071763387948859506"
   },
   {
+    "ticker": "NBIS",
+    "best_grade": "A",
+    "best_score": 4,
+    "avg_score": 1.8,
+    "total_score": 238,
+    "mention_count": 130,
+    "burst_7d": 10,
+    "best_tweet_url": "https://x.com/aleabitoreddit/status/2071763387948859506"
+  },
+  {
     "ticker": "GFS",
     "best_grade": "A",
     "best_score": 4,
     "avg_score": 1.4,
-    "total_score": 58,
-    "mention_count": 41,
+    "total_score": 64,
+    "mention_count": 46,
     "burst_7d": 10,
     "best_tweet_url": "https://x.com/aleabitoreddit/status/2071763387948859506"
   },
@@ -350,12 +350,22 @@
     "best_tweet_url": "https://x.com/aleabitoreddit/status/2071763387948859506"
   },
   {
+    "ticker": "XFAB",
+    "best_grade": "A",
+    "best_score": 4,
+    "avg_score": 2.0,
+    "total_score": 55,
+    "mention_count": 27,
+    "burst_7d": 14,
+    "best_tweet_url": "https://x.com/aleabitoreddit/status/2071763387948859506"
+  },
+  {
     "ticker": "SOI",
     "best_grade": "A",
     "best_score": 4,
     "avg_score": 2.0,
-    "total_score": 224,
-    "mention_count": 110,
+    "total_score": 228,
+    "mention_count": 112,
     "burst_7d": 19,
     "best_tweet_url": "https://x.com/aleabitoreddit/status/2066535221554733278"
   },
@@ -374,8 +384,8 @@
     "best_grade": "A",
     "best_score": 4,
     "avg_score": 1.9,
-    "total_score": 184,
-    "mention_count": 97,
+    "total_score": 191,
+    "mention_count": 100,
     "burst_7d": 10,
     "best_tweet_url": "https://x.com/aleabitoreddit/status/2065736884752703865"
   },
@@ -388,16 +398,6 @@
     "mention_count": 40,
     "burst_7d": 4,
     "best_tweet_url": "https://x.com/aleabitoreddit/status/2065262802328293497"
-  },
-  {
-    "ticker": "SNDK",
-    "best_grade": "A",
-    "best_score": 4,
-    "avg_score": 2.0,
-    "total_score": 210,
-    "mention_count": 105,
-    "burst_7d": 12,
-    "best_tweet_url": "https://x.com/aleabitoreddit/status/2064741308460351493"
   },
   {
     "ticker": "INHD",
@@ -413,9 +413,9 @@
     "ticker": "HPS",
     "best_grade": "A",
     "best_score": 4,
-    "avg_score": 2.6,
-    "total_score": 41,
-    "mention_count": 16,
+    "avg_score": 2.5,
+    "total_score": 42,
+    "mention_count": 17,
     "burst_7d": 5,
     "best_tweet_url": "https://x.com/aleabitoreddit/status/2060075363779366918"
   },
@@ -434,7 +434,7 @@
     "best_grade": "A",
     "best_score": 4,
     "avg_score": 1.7,
-    "total_score": 188,
+    "total_score": 189,
     "mention_count": 110,
     "burst_7d": 9,
     "best_tweet_url": "https://x.com/aleabitoreddit/status/2055208861242655010"
@@ -453,21 +453,11 @@
     "ticker": "FLNC",
     "best_grade": "A",
     "best_score": 4,
-    "avg_score": 2.7,
-    "total_score": 27,
-    "mention_count": 10,
-    "burst_7d": 5,
+    "avg_score": 2.6,
+    "total_score": 21,
+    "mention_count": 8,
+    "burst_7d": 3,
     "best_tweet_url": "https://x.com/aleabitoreddit/status/2054198288556109906"
-  },
-  {
-    "ticker": "IBKR",
-    "best_grade": "A",
-    "best_score": 4,
-    "avg_score": 2.3,
-    "total_score": 28,
-    "mention_count": 12,
-    "burst_7d": 4,
-    "best_tweet_url": "https://x.com/aleabitoreddit/status/2052679583892426925"
   },
   {
     "ticker": "SCHW",
@@ -500,6 +490,16 @@
     "best_tweet_url": "https://x.com/aleabitoreddit/status/2052679583892426925"
   },
   {
+    "ticker": "IBKR",
+    "best_grade": "A",
+    "best_score": 4,
+    "avg_score": 2.3,
+    "total_score": 28,
+    "mention_count": 12,
+    "burst_7d": 4,
+    "best_tweet_url": "https://x.com/aleabitoreddit/status/2052679583892426925"
+  },
+  {
     "ticker": "JPM",
     "best_grade": "A",
     "best_score": 4,
@@ -513,9 +513,9 @@
     "ticker": "ARM",
     "best_grade": "A",
     "best_score": 4,
-    "avg_score": 1.9,
-    "total_score": 47,
-    "mention_count": 25,
+    "avg_score": 1.8,
+    "total_score": 48,
+    "mention_count": 26,
     "burst_7d": 7,
     "best_tweet_url": "https://x.com/aleabitoreddit/status/2047054864040308895"
   },
@@ -543,20 +543,10 @@
     "ticker": "TSEM",
     "best_grade": "A",
     "best_score": 4,
-    "avg_score": 1.8,
-    "total_score": 130,
-    "mention_count": 74,
+    "avg_score": 1.7,
+    "total_score": 131,
+    "mention_count": 75,
     "burst_7d": 15,
-    "best_tweet_url": "https://x.com/aleabitoreddit/status/2046003874553901188"
-  },
-  {
-    "ticker": "MSFT",
-    "best_grade": "A",
-    "best_score": 4,
-    "avg_score": 1.6,
-    "total_score": 145,
-    "mention_count": 93,
-    "burst_7d": 12,
     "best_tweet_url": "https://x.com/aleabitoreddit/status/2046003874553901188"
   },
   {
@@ -567,6 +557,16 @@
     "total_score": 17,
     "mention_count": 9,
     "burst_7d": 4,
+    "best_tweet_url": "https://x.com/aleabitoreddit/status/2046003874553901188"
+  },
+  {
+    "ticker": "MSFT",
+    "best_grade": "A",
+    "best_score": 4,
+    "avg_score": 1.6,
+    "total_score": 149,
+    "mention_count": 94,
+    "burst_7d": 12,
     "best_tweet_url": "https://x.com/aleabitoreddit/status/2046003874553901188"
   },
   {
@@ -624,8 +624,8 @@
     "best_grade": "A",
     "best_score": 4,
     "avg_score": 1.7,
-    "total_score": 156,
-    "mention_count": 93,
+    "total_score": 159,
+    "mention_count": 94,
     "burst_7d": 10,
     "best_tweet_url": "https://x.com/aleabitoreddit/status/2037715698592719312"
   },
@@ -673,20 +673,10 @@
     "ticker": "BE",
     "best_grade": "A",
     "best_score": 4,
-    "avg_score": 2.1,
-    "total_score": 17,
-    "mention_count": 8,
+    "avg_score": 2.2,
+    "total_score": 20,
+    "mention_count": 9,
     "burst_7d": 4,
-    "best_tweet_url": "https://x.com/aleabitoreddit/status/2032929794275553400"
-  },
-  {
-    "ticker": "COPX",
-    "best_grade": "A",
-    "best_score": 4,
-    "avg_score": 2.5,
-    "total_score": 5,
-    "mention_count": 2,
-    "burst_7d": 2,
     "best_tweet_url": "https://x.com/aleabitoreddit/status/2032929794275553400"
   },
   {
@@ -697,6 +687,16 @@
     "total_score": 27,
     "mention_count": 14,
     "burst_7d": 3,
+    "best_tweet_url": "https://x.com/aleabitoreddit/status/2032929794275553400"
+  },
+  {
+    "ticker": "COPX",
+    "best_grade": "A",
+    "best_score": 4,
+    "avg_score": 2.5,
+    "total_score": 5,
+    "mention_count": 2,
+    "burst_7d": 2,
     "best_tweet_url": "https://x.com/aleabitoreddit/status/2032929794275553400"
   },
   {
@@ -760,22 +760,12 @@
     "best_tweet_url": "https://x.com/aleabitoreddit/status/2029646649170219307"
   },
   {
-    "ticker": "NOC",
+    "ticker": "LMT",
     "best_grade": "A",
     "best_score": 4,
-    "avg_score": 2.0,
-    "total_score": 12,
-    "mention_count": 6,
-    "burst_7d": 3,
-    "best_tweet_url": "https://x.com/aleabitoreddit/status/2027766785362301395"
-  },
-  {
-    "ticker": "XOM",
-    "best_grade": "A",
-    "best_score": 4,
-    "avg_score": 2.0,
-    "total_score": 6,
-    "mention_count": 3,
+    "avg_score": 2.2,
+    "total_score": 11,
+    "mention_count": 5,
     "burst_7d": 2,
     "best_tweet_url": "https://x.com/aleabitoreddit/status/2027766785362301395"
   },
@@ -800,12 +790,22 @@
     "best_tweet_url": "https://x.com/aleabitoreddit/status/2027766785362301395"
   },
   {
-    "ticker": "LMT",
+    "ticker": "NOC",
     "best_grade": "A",
     "best_score": 4,
-    "avg_score": 2.2,
-    "total_score": 11,
-    "mention_count": 5,
+    "avg_score": 2.0,
+    "total_score": 12,
+    "mention_count": 6,
+    "burst_7d": 3,
+    "best_tweet_url": "https://x.com/aleabitoreddit/status/2027766785362301395"
+  },
+  {
+    "ticker": "XOM",
+    "best_grade": "A",
+    "best_score": 4,
+    "avg_score": 2.0,
+    "total_score": 6,
+    "mention_count": 3,
     "burst_7d": 2,
     "best_tweet_url": "https://x.com/aleabitoreddit/status/2027766785362301395"
   },
@@ -834,8 +834,8 @@
     "best_grade": "A",
     "best_score": 4,
     "avg_score": 1.7,
-    "total_score": 61,
-    "mention_count": 36,
+    "total_score": 62,
+    "mention_count": 37,
     "burst_7d": 5,
     "best_tweet_url": "https://x.com/aleabitoreddit/status/2027318568728273305"
   },
@@ -853,9 +853,9 @@
     "ticker": "CRDO",
     "best_grade": "A",
     "best_score": 4,
-    "avg_score": 2.6,
-    "total_score": 26,
-    "mention_count": 10,
+    "avg_score": 2.5,
+    "total_score": 27,
+    "mention_count": 11,
     "burst_7d": 3,
     "best_tweet_url": "https://x.com/aleabitoreddit/status/2020975054411137326"
   },
@@ -970,13 +970,13 @@
     "best_tweet_url": "https://x.com/aleabitoreddit/status/1996581986472022087"
   },
   {
-    "ticker": "MOD",
+    "ticker": "TTMI",
     "best_grade": "A",
     "best_score": 4,
-    "avg_score": 1.8,
+    "avg_score": 2.3,
     "total_score": 7,
-    "mention_count": 4,
-    "burst_7d": 2,
+    "mention_count": 3,
+    "burst_7d": 1,
     "best_tweet_url": "https://x.com/aleabitoreddit/status/1995543748353347989"
   },
   {
@@ -990,6 +990,16 @@
     "best_tweet_url": "https://x.com/aleabitoreddit/status/1995543748353347989"
   },
   {
+    "ticker": "MOD",
+    "best_grade": "A",
+    "best_score": 4,
+    "avg_score": 1.6,
+    "total_score": 8,
+    "mention_count": 5,
+    "burst_7d": 2,
+    "best_tweet_url": "https://x.com/aleabitoreddit/status/1995543748353347989"
+  },
+  {
     "ticker": "MPWR",
     "best_grade": "A",
     "best_score": 4,
@@ -997,16 +1007,6 @@
     "total_score": 6,
     "mention_count": 3,
     "burst_7d": 2,
-    "best_tweet_url": "https://x.com/aleabitoreddit/status/1995543748353347989"
-  },
-  {
-    "ticker": "TTMI",
-    "best_grade": "A",
-    "best_score": 4,
-    "avg_score": 2.3,
-    "total_score": 7,
-    "mention_count": 3,
-    "burst_7d": 1,
     "best_tweet_url": "https://x.com/aleabitoreddit/status/1995543748353347989"
   },
   {
@@ -1020,22 +1020,32 @@
     "best_tweet_url": "https://x.com/aleabitoreddit/status/1994089931602579688"
   },
   {
-    "ticker": "EOS",
-    "best_grade": "A",
-    "best_score": 4,
-    "avg_score": 1.8,
-    "total_score": 9,
-    "mention_count": 5,
-    "burst_7d": 2,
-    "best_tweet_url": "https://x.com/aleabitoreddit/status/1993283099162189962"
-  },
-  {
     "ticker": "TE",
     "best_grade": "A",
     "best_score": 4,
     "avg_score": 2.0,
     "total_score": 10,
     "mention_count": 5,
+    "burst_7d": 1,
+    "best_tweet_url": "https://x.com/aleabitoreddit/status/1993283099162189962"
+  },
+  {
+    "ticker": "VST",
+    "best_grade": "A",
+    "best_score": 4,
+    "avg_score": 2.0,
+    "total_score": 6,
+    "mention_count": 3,
+    "burst_7d": 2,
+    "best_tweet_url": "https://x.com/aleabitoreddit/status/1993283099162189962"
+  },
+  {
+    "ticker": "STX",
+    "best_grade": "A",
+    "best_score": 4,
+    "avg_score": 2.5,
+    "total_score": 5,
+    "mention_count": 2,
     "burst_7d": 1,
     "best_tweet_url": "https://x.com/aleabitoreddit/status/1993283099162189962"
   },
@@ -1050,13 +1060,13 @@
     "best_tweet_url": "https://x.com/aleabitoreddit/status/1993283099162189962"
   },
   {
-    "ticker": "STX",
+    "ticker": "EOS",
     "best_grade": "A",
     "best_score": 4,
-    "avg_score": 2.5,
-    "total_score": 5,
-    "mention_count": 2,
-    "burst_7d": 1,
+    "avg_score": 1.8,
+    "total_score": 9,
+    "mention_count": 5,
+    "burst_7d": 2,
     "best_tweet_url": "https://x.com/aleabitoreddit/status/1993283099162189962"
   },
   {
@@ -1067,16 +1077,6 @@
     "total_score": 5,
     "mention_count": 2,
     "burst_7d": 1,
-    "best_tweet_url": "https://x.com/aleabitoreddit/status/1993283099162189962"
-  },
-  {
-    "ticker": "VST",
-    "best_grade": "A",
-    "best_score": 4,
-    "avg_score": 2.0,
-    "total_score": 6,
-    "mention_count": 3,
-    "burst_7d": 2,
     "best_tweet_url": "https://x.com/aleabitoreddit/status/1993283099162189962"
   },
   {
