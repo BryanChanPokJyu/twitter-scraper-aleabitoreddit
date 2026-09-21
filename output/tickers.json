@@ -1,64 +1,244 @@
 {
   "summary": {
-    "total_tweets": 1581,
-    "tweets_with_tickers": 1419,
-    "tweets_without_tickers": 162,
+    "total_tweets": 1600,
+    "tweets_with_tickers": 1434,
+    "tweets_without_tickers": 166,
     "coverage": "89%",
-    "unique_tickers": 645
+    "unique_tickers": 647
   },
   "ticker_frequency": {
-    "SIVE": 318,
-    "LITE": 290,
-    "NVDA": 272,
-    "AAOI": 217,
-    "AXTI": 195,
-    "005930.KS": 150,
-    "COHR": 145,
-    "MRVL": 142,
-    "NBIS": 138,
-    "000660.KS": 126,
-    "MU": 124,
+    "SIVE": 326,
+    "LITE": 294,
+    "NVDA": 278,
+    "AAOI": 221,
+    "AXTI": 196,
+    "005930.KS": 153,
+    "COHR": 147,
+    "MRVL": 146,
+    "NBIS": 142,
+    "MU": 128,
+    "000660.KS": 128,
+    "SNDK": 118,
     "GOOGL": 116,
-    "SNDK": 116,
-    "SOI": 115,
+    "SOI": 116,
     "META": 110,
-    "TSM": 105,
-    "AMZN": 98,
+    "TSM": 106,
+    "AMZN": 99,
     "MSFT": 96,
-    "AVGO": 92,
-    "IQE": 92,
-    "INTC": 83,
-    "AMD": 82,
-    "IREN": 81,
-    "TSEM": 76,
-    "POET": 70,
-    "JBL": 68,
-    "EWY": 61,
-    "AEHR": 58,
+    "AVGO": 95,
+    "IQE": 93,
+    "INTC": 86,
+    "AMD": 85,
+    "IREN": 83,
+    "TSEM": 77,
+    "JBL": 71,
+    "POET": 71,
+    "EWY": 63,
+    "AEHR": 59,
     "MTSI": 51,
+    "RDDT": 50,
     "TSLA": 50,
-    "3105.TW": 49,
-    "RDDT": 48,
-    "RPI": 46,
-    "GFS": 46,
+    "3105.TW": 50,
+    "GFS": 49,
+    "RPI": 47,
     "LPK": 45,
-    "HOOD": 43,
-    "RKLB": 40,
-    "CRWV": 39,
+    "HOOD": 44,
+    "CRWV": 41,
+    "RKLB": 41,
     "6451.TW": 37,
     "SPCX": 35,
     "AAPL": 32,
     "PRIVATE:Lightmatter": 30,
     "CRCL": 29,
+    "ARM": 28,
     "ALRIB": 28,
     "XFAB": 28,
     "ORCL": 27,
-    "ARM": 27,
     "HIMS": 26,
-    "CCXI": 23,
+    "CCXI": 24,
     "CIFR": 23
   },
   "tweets": [
+    {
+      "id": "2101906175046635887",
+      "date": "Mon Sep 21 05:27:38 +0000 2026",
+      "url": "https://x.com/aleabitoreddit/status/2101906175046635887",
+      "tickers": [
+        "005930.KS",
+        "DRAM",
+        "EWY",
+        "MU",
+        "PSMC",
+        "SKHY"
+      ]
+    },
+    {
+      "id": "2101818303216013812",
+      "date": "Sun Sep 20 23:38:28 +0000 2026",
+      "url": "https://x.com/aleabitoreddit/status/2101818303216013812",
+      "tickers": [
+        "RDDT",
+        "SIVE"
+      ]
+    },
+    {
+      "id": "2101797616812269694",
+      "date": "Sun Sep 20 22:16:16 +0000 2026",
+      "url": "https://x.com/aleabitoreddit/status/2101797616812269694",
+      "tickers": []
+    },
+    {
+      "id": "2101730902615486643",
+      "date": "Sun Sep 20 17:51:10 +0000 2026",
+      "url": "https://x.com/aleabitoreddit/status/2101730902615486643",
+      "tickers": [
+        "LITE",
+        "MRVL",
+        "SIVE"
+      ]
+    },
+    {
+      "id": "2101467035972894984",
+      "date": "Sun Sep 20 00:22:39 +0000 2026",
+      "url": "https://x.com/aleabitoreddit/status/2101467035972894984",
+      "tickers": []
+    },
+    {
+      "id": "2101402656845808007",
+      "date": "Sat Sep 19 20:06:50 +0000 2026",
+      "url": "https://x.com/aleabitoreddit/status/2101402656845808007",
+      "tickers": [
+        "AVGO",
+        "MRVL",
+        "NVDA",
+        "SIVE"
+      ]
+    },
+    {
+      "id": "2101145461797335254",
+      "date": "Sat Sep 19 03:04:50 +0000 2026",
+      "url": "https://x.com/aleabitoreddit/status/2101145461797335254",
+      "tickers": []
+    },
+    {
+      "id": "2100938001077674262",
+      "date": "Fri Sep 18 13:20:27 +0000 2026",
+      "url": "https://x.com/aleabitoreddit/status/2100938001077674262",
+      "tickers": [
+        "AAOI",
+        "MU",
+        "NVDA",
+        "SIVE",
+        "SKHY",
+        "SMTC"
+      ]
+    },
+    {
+      "id": "2100735673561174047",
+      "date": "Thu Sep 17 23:56:29 +0000 2026",
+      "url": "https://x.com/aleabitoreddit/status/2100735673561174047",
+      "tickers": [
+        "000660.KS",
+        "005930.KS",
+        "AAOI",
+        "AMD",
+        "AMZN",
+        "ARM",
+        "CIEN",
+        "CRWV",
+        "GFS",
+        "GNRC",
+        "INTC",
+        "IREN",
+        "MRVL",
+        "MU",
+        "NBIS",
+        "NVDA",
+        "QCOM",
+        "SIVE",
+        "SNDK",
+        "TSEM"
+      ]
+    },
+    {
+      "id": "2100530507549425704",
+      "date": "Thu Sep 17 10:21:13 +0000 2026",
+      "url": "https://x.com/aleabitoreddit/status/2100530507549425704",
+      "tickers": [
+        "NBIS",
+        "PSMC"
+      ]
+    },
+    {
+      "id": "2100290486569505223",
+      "date": "Wed Sep 16 18:27:28 +0000 2026",
+      "url": "https://x.com/aleabitoreddit/status/2100290486569505223",
+      "tickers": [
+        "COHR",
+        "LITE",
+        "NVDA"
+      ]
+    },
+    {
+      "id": "2100008575229976995",
+      "date": "Tue Sep 15 23:47:15 +0000 2026",
+      "url": "https://x.com/aleabitoreddit/status/2100008575229976995",
+      "tickers": [
+        "AVGO",
+        "COHR",
+        "JBL",
+        "LITE",
+        "SIVE"
+      ]
+    },
+    {
+      "id": "2099999510898577543",
+      "date": "Tue Sep 15 23:11:14 +0000 2026",
+      "url": "https://x.com/aleabitoreddit/status/2099999510898577543",
+      "tickers": [
+        "NVDA"
+      ]
+    },
+    {
+      "id": "2099830591663513642",
+      "date": "Tue Sep 15 12:00:00 +0000 2026",
+      "url": "https://x.com/aleabitoreddit/status/2099830591663513642",
+      "tickers": [
+        "CCXI"
+      ]
+    },
+    {
+      "id": "2099784954444210243",
+      "date": "Tue Sep 15 08:58:39 +0000 2026",
+      "url": "https://x.com/aleabitoreddit/status/2099784954444210243",
+      "tickers": []
+    },
+    {
+      "id": "2099674926697545849",
+      "date": "Tue Sep 15 01:41:27 +0000 2026",
+      "url": "https://x.com/aleabitoreddit/status/2099674926697545849",
+      "tickers": [
+        "MU",
+        "SKHY"
+      ]
+    },
+    {
+      "id": "2099659874892386678",
+      "date": "Tue Sep 15 00:41:38 +0000 2026",
+      "url": "https://x.com/aleabitoreddit/status/2099659874892386678",
+      "tickers": [
+        "000660.KS",
+        "005930.KS",
+        "AMD",
+        "BE",
+        "CRWD",
+        "CRWV",
+        "DRAM",
+        "INTC",
+        "SKHY",
+        "SNDK"
+      ]
+    },
     {
       "id": "2099458250240618861",
       "date": "Mon Sep 14 11:20:27 +0000 2026",
@@ -3682,6 +3862,22 @@
       ]
     },
     {
+      "id": "2070179074048409662",
+      "date": "Thu Jun 25 16:15:27 +0000 2026",
+      "url": "https://x.com/aleabitoreddit/status/2070179074048409662",
+      "tickers": [
+        "3105.TW",
+        "AAOI",
+        "AMD",
+        "GFS",
+        "JBL",
+        "NBIS",
+        "NVDA",
+        "POET",
+        "SIVE"
+      ]
+    },
+    {
       "id": "2070157835137434015",
       "date": "Thu Jun 25 14:51:04 +0000 2026",
       "url": "https://x.com/aleabitoreddit/status/2070157835137434015",
@@ -3983,6 +4179,33 @@
         "ASML",
         "LPK",
         "TOWA"
+      ]
+    },
+    {
+      "id": "2068301039946887269",
+      "date": "Sat Jun 20 11:52:49 +0000 2026",
+      "url": "https://x.com/aleabitoreddit/status/2068301039946887269",
+      "tickers": [
+        "AAOI",
+        "AEHR",
+        "AVGO",
+        "AXTI",
+        "EWY",
+        "GFS",
+        "HOOD",
+        "INTC",
+        "IQE",
+        "IREN",
+        "JBL",
+        "LITE",
+        "MRVL",
+        "NBIS",
+        "RDDT",
+        "RKLB",
+        "RPI",
+        "SIVE",
+        "SOI",
+        "TSM"
       ]
     },
     {
@@ -17024,6 +17247,30 @@
     }
   ],
   "untagged_tweets": [
+    {
+      "id": "2101797616812269694",
+      "date": "Sun Sep 20 22:16:16 +0000 2026",
+      "url": "https://x.com/aleabitoreddit/status/2101797616812269694",
+      "tickers": []
+    },
+    {
+      "id": "2101467035972894984",
+      "date": "Sun Sep 20 00:22:39 +0000 2026",
+      "url": "https://x.com/aleabitoreddit/status/2101467035972894984",
+      "tickers": []
+    },
+    {
+      "id": "2101145461797335254",
+      "date": "Sat Sep 19 03:04:50 +0000 2026",
+      "url": "https://x.com/aleabitoreddit/status/2101145461797335254",
+      "tickers": []
+    },
+    {
+      "id": "2099784954444210243",
+      "date": "Tue Sep 15 08:58:39 +0000 2026",
+      "url": "https://x.com/aleabitoreddit/status/2099784954444210243",
+      "tickers": []
+    },
     {
       "id": "2098697148103631117",
       "date": "Sat Sep 12 08:56:06 +0000 2026",
