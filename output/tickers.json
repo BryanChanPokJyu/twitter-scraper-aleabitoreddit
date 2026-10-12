@@ -1,22 +1,22 @@
 {
   "summary": {
-    "total_tweets": 1619,
-    "tweets_with_tickers": 1448,
+    "total_tweets": 1622,
+    "tweets_with_tickers": 1451,
     "tweets_without_tickers": 171,
     "coverage": "89%",
     "unique_tickers": 648
   },
   "ticker_frequency": {
-    "SIVE": 329,
-    "LITE": 300,
+    "SIVE": 330,
+    "LITE": 301,
     "NVDA": 279,
-    "AAOI": 226,
+    "AAOI": 229,
     "AXTI": 198,
     "005930.KS": 156,
     "COHR": 148,
     "MRVL": 147,
     "NBIS": 144,
-    "MU": 132,
+    "MU": 133,
     "000660.KS": 128,
     "SNDK": 120,
     "GOOGL": 117,
@@ -36,8 +36,8 @@
     "EWY": 64,
     "AEHR": 59,
     "3105.TW": 52,
+    "RDDT": 51,
     "MTSI": 51,
-    "RDDT": 50,
     "TSLA": 50,
     "GFS": 49,
     "RPI": 47,
@@ -59,6 +59,34 @@
     "CIFR": 23
   },
   "tweets": [
+    {
+      "id": "2108896030326682074",
+      "date": "Sat Oct 10 12:22:49 +0000 2026",
+      "url": "https://x.com/aleabitoreddit/status/2108896030326682074",
+      "tickers": [
+        "AAOI",
+        "RDDT"
+      ]
+    },
+    {
+      "id": "2108412203514925165",
+      "date": "Fri Oct 09 04:20:16 +0000 2026",
+      "url": "https://x.com/aleabitoreddit/status/2108412203514925165",
+      "tickers": [
+        "AAOI",
+        "LITE",
+        "SIVE"
+      ]
+    },
+    {
+      "id": "2108272287908860377",
+      "date": "Thu Oct 08 19:04:17 +0000 2026",
+      "url": "https://x.com/aleabitoreddit/status/2108272287908860377",
+      "tickers": [
+        "AAOI",
+        "MU"
+      ]
+    },
     {
       "id": "2107143846027268373",
       "date": "Mon Oct 05 16:20:16 +0000 2026",
